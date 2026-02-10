@@ -19,8 +19,9 @@ public class startPractice{
         }
         //Printing arrays. To print a two-dimensional array, you have to print each element in the array using a loop
         for (int row = 0); row < matrix.length; row++) {
-
-
+            for (int column = 0; column < matrix[row].length; column++) {
+                System.out.print(matrix[row][column] + "");
+            }
         }
     }
 }
