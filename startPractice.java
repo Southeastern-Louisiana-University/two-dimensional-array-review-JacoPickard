@@ -23,5 +23,6 @@ public class startPractice{
                 System.out.print(matrix[row][column] + "");
             }
         }
+
     }
 }
